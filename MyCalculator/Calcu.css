@@ -1,0 +1,47 @@
+body {
+    font-family: "Arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#Calculator {
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-image: url('amen.jpg');
+    background-size: cover;
+}
+
+Input {
+    width: calc(100% - 10px);
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: aquamarine;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button.result {
+    width: 150px;
+}
